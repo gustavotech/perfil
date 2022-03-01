@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://css.gg/instagram.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.foto{
+    display: block;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+  
