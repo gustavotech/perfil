@@ -1,16 +1,84 @@
 @charset "UTF-8";
 @import url('https://css.gg/instagram.css');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
-*{
+
+
+:root {
+    --fonte01: 'Italiana', serif;
+}
+
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.foto{
+body {
+    height: 100vh;
+    /*background-image: linear-gradient(to bottom, #09E85E , #000000 );*/
+}
+
+h1 {
+    font-family: var(--fonte01);
+    text-align: center;
+    margin: 25px;
+}
+
+.foto {
     display: block;
-    max-width: 120px;
-    max-height: 120px;
+    width: 120px;
     border-radius: 50%;
+    padding: 10px;
     margin: auto;
 }
   
+.instagram {
+    display: flex;
+    padding: 20px;
+    margin-top: 60px;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: gray;
+    border-radius: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gg-instagram{
+    margin: 0px;
+    display: inline-block;
+}
+
+.instagram  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.github {
+    display: flex;
+    padding: 20px;
+    margin-top: 30px;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: gray;
+    border-radius: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
