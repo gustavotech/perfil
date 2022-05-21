@@ -3,8 +3,8 @@
 
 :root {
     --fonte01: 'Italiana', serif;
-    --cor1: #09E85E;
-    --corN1: #000000;
+    --cor1: #1b1717;
+    --corN1: #2e2727;
     --corN2: #ffffff;
 }
 
@@ -18,10 +18,16 @@ body {
 }
 
 header > h1 {
+    color: #ffffff;
     font-family: var(--fonte01);
     font-size: 3.5em;
     text-align: center;
     margin: 25px;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
 }
 
 .foto {
@@ -30,6 +36,7 @@ header > h1 {
     border-radius: 50%;
     padding: 10px;
     margin: auto;
+    width: 180px;
 }
   
 .instagram {
